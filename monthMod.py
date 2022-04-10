@@ -75,10 +75,20 @@ class FrenchDeck:
         return len(self.cards)
     def __getitem__(self, position):
         return self.cards[position]
+        
 
+class Employee:
 
+    def __init__(self, first, last, age, email, rank):
+        self.first = first
+        self.last = last
+        self.age = age
+        self.email = email
+        self.rank = rank
+
+    def salary(self):
+        return self.rank * 1000
 
 def foo(num1, num2):
     foo = num1 * num2
     return foo
-        
