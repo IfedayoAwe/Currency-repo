@@ -88,3 +88,7 @@ class Employee:
 
     def salary(self):
         return self.rank * 1000
+
+def foo(num1, num2):
+    foo = num1 * num2
+    return foo
